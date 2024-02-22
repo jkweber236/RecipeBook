@@ -1,7 +1,7 @@
 class Recipe {
-    var category = ""
-    var name = ""
-    var ingredients = ""
-    var instructions = ""
+    var category: String = ""
+    var name: String = ""
+    var ingredients: String = ""
+    var instructions: String = ""
 
 }
