@@ -15,7 +15,7 @@ fun displayRecipe(recipe: Recipe) {
     }
     // Splitting the instructions section to be printed in list format.
     println("${boldStart}Instructions:${boldEnd}")
-    recipe.instructions.split(", ").forEachIndexed { index, step ->
+    recipe.instructions.split(", ", ". ").forEachIndexed { index, step ->
         println("  ${index + 1}. $step")
     }
     println()
@@ -70,8 +70,8 @@ fun main() {
 
                 // Creating a new recipe instance using apply block for property initialization
                 val recipe = Recipe().apply {
-                    category = recipeCategory
                     // Set the values in each section based on the values provided
+                    category = recipeCategory
                     name = recipeName
                     ingredients = ingredientsList.joinToString(", ")
                     instructions = instructionsList.joinToString(", ")

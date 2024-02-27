@@ -45,7 +45,7 @@ class RecipeFileHandler {
         val recipes = mutableListOf<Recipe>()
 
         try {
-            // Variable o keep track of the current recipe being retrieved
+            // Variable to keep track of the current recipe being retrieved
             var currentRecipe: Recipe? = null
 
             // iterate through each line in the file
