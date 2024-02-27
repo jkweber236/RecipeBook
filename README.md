@@ -5,7 +5,7 @@ In this project, I have developed a recipe management system using the Kotlin pr
 
 Here is a short demonstration video. It includes a code walkthrough as well as a demo of the software running. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/1nprV34LKhY)
 
 # Development Environment
 
